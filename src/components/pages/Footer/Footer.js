@@ -10,7 +10,8 @@ import {
 import { MdFingerprint } from 'react-icons/md';
 
 import './Footer.css';
-import { Button } from '../../../Button';
+import { Button } from '../../Button';
+
 
 
 
