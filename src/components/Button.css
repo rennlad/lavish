@@ -2,8 +2,6 @@
     --primary: #fff;
 }
 
-
-/* Global button style */
 .btn {
     padding: 8px 20px;
     border-radius: 4px;
@@ -13,8 +11,6 @@
     white-space: nowrap;
 }
 
-
-/* Button styles */
 .btn--primary {
     background-color: var(--primary);
     color: #242424;
@@ -29,8 +25,6 @@
     transition: all 0.3s ease-out;
 }
 
-
-/* Button sizes */
 .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
@@ -46,7 +40,7 @@
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
@@ -59,9 +53,9 @@
     font-size: 20px;
 }
 
-
-/* Hover effects */
-.btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;
@@ -73,8 +67,16 @@
     transition: all 0.2s ease-out;
 }
 
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+}
 
-/* Button colours */
 .blue {
     background-color: #276afb;
     color: #fff;
@@ -100,7 +102,7 @@
 }
 
 .green {
-    background-color: #25ce4a;
+    background: #25ce4a;
     color: #fff;
     border: none;
 }

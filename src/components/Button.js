@@ -14,7 +14,7 @@ export const Button = ({ children, type, onClick, buttonStyle, buttonSize, butto
     // Check for style values and set as default if not found
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-    const checkButtonColor = COLORS.includes(buttonColor) ? buttonColor : COLORS[0];
+    const checkButtonColor = COLORS.includes(buttonColor) ? buttonColor : null;
 
 
     return (
